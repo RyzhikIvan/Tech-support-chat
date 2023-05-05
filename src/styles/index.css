@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  margin: 0;
+  background-color: #e6e4e4;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+@import '~antd/dist/antd.css';
+
+.App {
+  height: 80%;
+}
+Form {
+  max-width: 800px;
+  max-width: 80%;
+}
+.ChatApp {
+  height: calc(100vh - 48px) !important;
+}
+.Info {
+  padding: 20px;
+}
+.inner {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+.Info h1 {
+  flex: 0 0 100%;
+}
+.noApiKeyLabel {
+  min-height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+.spanAsLink {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
+.bubble-wrapper {
+  display: flex;
+}
+.bubble-time {
+  font-size: 10px;
+  color: #ada7a7;
+}
+.ant-card {
+  border-radius: 10px;
+  margin: 6px;
+  width: calc(33.3% - 12px);
+}
+p.value {
+  font-weight: 600;
+  background: #e6e4e469;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+}
+.new-chat-button {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+}
+.openai-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
